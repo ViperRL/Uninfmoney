@@ -1,0 +1,28 @@
+--Credits To Owner
+
+--Video Recorded By xMiles_Games
+
+-- Subscribe Love You
+
+-- you need to have at least 1$ in the bank so that it works
+_G.toggle = false
+for i=1,200000 do
+
+    local args = {
+
+        [1] = {
+
+            ["Amount"] = 0.5,
+
+            ["Mode"] = "W"
+
+        }
+
+    }
+
+    
+
+    game:GetService("ReplicatedStorage").RemoteEvent.ATM:FireServer(unpack(args))
+
+end
+ 
